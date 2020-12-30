@@ -13,9 +13,9 @@ Included a [script](https://cdn.webrtc-experiment.com/CodecsHandler.js) to prefe
 
 Start the application using Node:
 
-```open terminal
-
+```bash
 # Install dependencies for server
+
 MacOS (Homebrew needed):
 brew update
 brew install node
@@ -42,6 +42,10 @@ docker run -d -p 8080:8080 webrtcvideobroadcast
 Connect to localhost:8080/broadcast.html to add a new broadcaster.
 
 After that, you just need to visit localhost:8080 or [device_running_server_ip_address]:8080 from another device to connect to the server as a client and you should get the video that is streamed from the broadcaster.
+```
+http://localhost:8080/broadcast.html
+http://localhost:8080/
+```
 
 ## Adding a TURN server (Not tested)
 
