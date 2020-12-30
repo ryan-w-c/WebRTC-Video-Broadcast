@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Viewer</title>
+    <!-- <meta charset="UTF-8" /> -->
+    <link href="/styles.css" rel="stylesheet" />
+    <!-- <script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script> -->
+    <!-- <meta name="viewport" content="width=device-width"> -->
+  </head>
+  <body>
+    <video playsinline controls autoplay muted></video>
+    <!-- <a onclick="castNow()" href="#">Cast!</a></br>
+    <a onclick="loadNow()" href="#">LOAD!</a> -->
+    <!-- <button id="enable-audio">Enable audio</button> -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/watch.js"></script>
+    <!-- <script src="/CastVideos.js"></script> -->
+    <!-- <script>
+      window.onload = function() {
+        window['__onGCastApiAvailable'] = function(loaded, errorInfo) {
+          console.log('in __onGCastApiAvailable, loaded:', loaded)
+          if (loaded) {
+            initializeCastApi()
+          }
+        };
+      }
+    </script> -->
+  </body>
+</html>
