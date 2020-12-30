@@ -41,7 +41,7 @@ docker run -d -p 8080:8080 webrtcvideobroadcast
 
 Connect to localhost:8080/broadcast.html to add a new broadcaster.
 
-After that, you just need to visit localhost:8080 or [device_running server_ip_address]:8080 from another device to connect to the server as a client and you should get the video that is streamed from the broadcaster.
+After that, you just need to visit localhost:8080 or [device_running_server_ip_address]:8080 from another device to connect to the server as a client and you should get the video that is streamed from the broadcaster.
 
 ## Adding a TURN server (Not tested)
 
